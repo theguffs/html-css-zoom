@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%; 
+}
+body{
+    background-color: black;
+}
+.griglia{
+    width: 90vw;
+    margin: 0 auto;
+}
+.foto-singola{
+    position: relative;
+    display: inline-block;
+}
+.nome{
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(34, 34, 34);
+}
