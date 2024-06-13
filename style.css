@@ -28,7 +28,8 @@ body{
 footer{
     width: 100%;
     height: 100px;
-    position: absolute;
+    display: flex;
+    position: fixed;
     bottom: 0;
     background-color: rgb(34, 34, 34);
     color: white;
@@ -37,6 +38,7 @@ footer{
 .sinistra{
     display: flex;
     position: relative;
+     text-align: center;
 }
 .microfono{
     display: inline-block;
@@ -54,11 +56,8 @@ footer{
     width: 100px;
     height: 100px;
 }
-.fa-microphone, .fa-video {
+.fa-microphone, .fa-video, .fa-user {
     font-size: 30px;
-}
-.sinistra{
-    text-align: center;
 }
 button{
     border: 0;
@@ -70,5 +69,21 @@ button{
     padding-left: 15px;
 }
 .centro{
- 
+    display: flex;
+    text-align: center;
+}
+.invite{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 100px;
+    height: 100px; 
+}
+.end{
+    display: inline-block;
+    background-color: rgb(74, 74, 74);
+    color: red;
+    width: 100px;
+    height: 100%; 
+    border: 0;
 }
